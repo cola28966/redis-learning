@@ -23,7 +23,7 @@ public class JedisFactory {
     public JedisPool getJedisPool() {
         if(jedisPool == null) {
             GenericObjectPoolConfig config = new GenericObjectPoolConfig();
-            jedisPool = new JedisPool(config,"124.70.75.113",6379,3000,"aa123456");
+            jedisPool = new JedisPool(config,"47.116.142.117",6379,3000,"aa123456");
         }
         return jedisPool;
     }

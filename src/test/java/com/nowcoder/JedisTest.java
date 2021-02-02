@@ -34,7 +34,7 @@ public class JedisTest {
 
     @Test
     public void testJedisApi() {
-        User user = new User(1,"tom","123456","tom@qq.com"
+        User user = new User(2,"tom","123456","tom@qq.com"
         ,"1233212");
         String key = null;
         try(Jedis jedis = jedisPool.getResource()) {
